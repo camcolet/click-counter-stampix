@@ -32,11 +32,11 @@ class Button extends Component {
           {this.state.counter}
           </div>
           <div className="operations">
-            <div onClick = {this.incrementCounter} className ="operation">
-              <FontAwesomeIcon icon={faPlusCircle} />
-            </div>
             <div onClick = {this.decrementCounter} className ="operation">
               <FontAwesomeIcon icon={faMinusCircle} />
+            </div>
+            <div onClick = {this.incrementCounter} className ="operation">
+              <FontAwesomeIcon icon={faPlusCircle} />
             </div>
           </div>
         </div>

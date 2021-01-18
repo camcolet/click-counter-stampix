@@ -28,12 +28,12 @@ class Button extends Component {
   render() {
     return (
         <div>
-          <div className="count">
-          {this.state.counter}
-          </div>
           <div className="operations">
             <div onClick = {this.decrementCounter} className ="operation">
               <FontAwesomeIcon icon={faMinusCircle} />
+            </div>
+            <div className="count">
+              {this.state.counter}
             </div>
             <div onClick = {this.incrementCounter} className ="operation">
               <FontAwesomeIcon icon={faPlusCircle} />
